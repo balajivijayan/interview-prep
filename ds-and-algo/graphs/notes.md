@@ -28,3 +28,24 @@
 
 ### Path
 * The sequence of vertices from source node to destination. For example, Path from A to C will be A->B->C or A->C
+
+### Properties of Graph
+Below are the types of Graph
+    * Directed Graph & Undirected Graph
+    * Weighted Graph & Unweighted Graph
+    * Cyclic Graph & Uncyclic Graph
+
+![Alt text](image-1.png)
+
+* Directed Graph are uni-directional. ie (A,B) != (B,A)
+* Undirected Graph are bidirectional. ie (A,B) == (B,A)
+
+![Alt text](image-2.png)
+
+When a cost is associated to an edge then it's a weigted graph. Weighted/Unweighted graph can be either directed or undirected
+
+![Alt text](image-3.png)
+
+When a graph contains cycles then it's a cyclic graph. For Path A-B-C-A, the source and destination is same vector(A) so it's a cyclic graph. When the starting vector and destination vector of a path is same then it's a cyclic graph
+
+A graph can have the combinational properties of Directed/Cyclic/Weighted graph
