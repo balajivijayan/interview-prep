@@ -30,6 +30,7 @@
 
 ### Properties of Graph
 Below are the properties of Graph
+
     * Directed Graph & Undirected Graph
     * Weighted Graph & Unweighted Graph
     * Cyclic Graph & Uncyclic Graph
