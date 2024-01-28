@@ -4,8 +4,7 @@
 * A Tree is also a graph but a graph is not a tree
 * A Tree will always have n-1 nodes as parent node but graph can have n number of parent node
 
-
-![Alt text](image.png)
+![image](https://github.com/balajivijayan/interview-prep/assets/11041004/8cf5c4bb-4c03-41f4-b7e8-cdbc926e5fb7)
 
 ## Terminlogy
 
@@ -31,6 +30,9 @@
 
 ### Properties of Graph
 Below are the types of Graph
+
+![image](https://github.com/balajivijayan/interview-prep/assets/11041004/557e7261-ad4f-4cea-bff7-4a24136c695a)
+
     * Directed Graph & Undirected Graph
     * Weighted Graph & Unweighted Graph
     * Cyclic Graph & Uncyclic Graph
