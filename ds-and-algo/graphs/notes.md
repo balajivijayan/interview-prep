@@ -29,13 +29,13 @@
 * The sequence of vertices from source node to destination. For example, Path from A to C will be A->B->C or A->C
 
 ### Properties of Graph
-Below are the types of Graph
-
-![image](https://github.com/balajivijayan/interview-prep/assets/11041004/557e7261-ad4f-4cea-bff7-4a24136c695a)
-
+Below are the properties of Graph
     * Directed Graph & Undirected Graph
     * Weighted Graph & Unweighted Graph
     * Cyclic Graph & Uncyclic Graph
+
+![image](https://github.com/balajivijayan/interview-prep/assets/11041004/557e7261-ad4f-4cea-bff7-4a24136c695a)
+
 
 ![Alt text](image-1.png)
 
