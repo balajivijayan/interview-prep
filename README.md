@@ -25,7 +25,12 @@
 * Cloud 
     * Docker
     * Kubernetes
+        * [Learn Kubernetes the Hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/docs/01-prerequisites.md)
     * AWS
+        * EC2
+        * EKS
+        * S3
+        * EBS
 
 
 ## Roadmap.sh
