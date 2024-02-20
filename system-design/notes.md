@@ -46,5 +46,6 @@ Below are some of the scaling techniques,
 
 
 #### Resources
-System Design One (https://github.com/systemdesign42/system-design/)
+[System Design One for templates](https://github.com/systemdesign42/system-design/)
+
 [Latency vs Throughput](https://www.youtube.com/playlist?list=PL9nWRykSBSFjU7UGR37SFfOb1oMYLNhag)
