@@ -43,6 +43,33 @@ Below are some of the scaling techniques,
 
 
 ### CAP Theorem
+**C**onsistency - **A**vailability -**P**artition Tolerant
+
+In a distributed system containing more than one node, CAP theorem states that during network failure ie when one or more nodes get's partitioned(isolated) then the system has to make a choice between Availabilty and Consistency.
+
+There are three nodes in the distributed system, each sharing an integral state through replication. Assume the initial state on all three nodes as 0.
+
+1. Write request sent to Node 1 to set state equal to 100.
+2. Node 1 tries replicating the result to all the other nodes in the system.
+3. Due to a network partition between Node 1 and 2, Node 2 does not receive the update and now holds the outdated state.
+4. Node 2 receives a read request.
+
+The system must now decide whether to return the outdated result or error.
+
+* Consistency means that the system returns either the latest data or errors.
+* Availability means that the system produces a non-error response every time.
+
+CAP theorem states that such a system must choose between consistency and availability **in case of a network partition.**
+
+* If a system decides to send a stale result during network failure then it's AP. Meaning it favours availability. Example - Cassandra
+* If a system decides to send the latest data or error then it's CP. Meaning it's consistent. Example - Postgres
+
+When designing system say a upvote buttton in reddit AP can be preffered. But for a banking application CP should be preferred.
+
+https://vrongmeal.com/blog/everything-about-cap-theorem
+
+
+### PACELC Theorem
 
 
 #### Resources

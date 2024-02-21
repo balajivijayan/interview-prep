@@ -10,6 +10,14 @@
     * OOP Patterns
     * Design Principles (MVC, MVP, MVVM, SOLID, Domain Driven Design)
     * Distributed/Microservices
+* Web Concepts
+    * HTTP
+    * Rest API
+    * GraphQL
+    * SOAP
+    * OAuth
+    * OpenID
+    * SSO
 * Microservices Architecture
 * Database
     * MongoDB
