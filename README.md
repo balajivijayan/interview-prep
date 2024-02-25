@@ -6,15 +6,20 @@
     * Byte Byte Go Volume 1
     * Byte Byte Go Volume 2
     * Distributed Systems - Martin Kleepman
+    * 12 Factor App
+    * 15 Factor App
 * Design Patterns
     * OOP Patterns
+    * Domain Driven Design
     * Design Principles (MVC, MVP, MVVM, SOLID, Domain Driven Design)
     * Distributed/Microservices
-* Web Concepts
+* Distributed System Concepts
     * HTTP
+    * OSGI
     * Rest API
     * GraphQL
     * SOAP
+    * Cryptography 101
     * OAuth
     * OpenID
     * SSO

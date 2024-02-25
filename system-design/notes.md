@@ -45,6 +45,7 @@ Below are some of the scaling techniques,
 ### CAP Theorem
 **C**onsistency - **A**vailability -**P**artition Tolerant
 
+CAP theorem formalizes th trade off between consistency and availability in the presense of partitions(network)
 In a distributed system containing more than one node, CAP theorem states that during network failure ie when one or more nodes get's partitioned(isolated) then the system has to make a choice between Availabilty and Consistency.
 
 There are three nodes in the distributed system, each sharing an integral state through replication. Assume the initial state on all three nodes as 0.
@@ -70,6 +71,7 @@ https://vrongmeal.com/blog/everything-about-cap-theorem
 
 
 ### PACELC Theorem
+
 
 
 #### Resources
