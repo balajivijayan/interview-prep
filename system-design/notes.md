@@ -94,10 +94,27 @@ Below are some of the consistency patterns that can be followed to build a syste
 
 **Availabilty Patterns**
 
-There are two complementory patterns used to support high availablilty - fail over and replication 
+There are two complementory patterns used to support high availablilty - fail over and replication. It's measured as 99.9, 99.99, 99.999s - 3, 4 and 5 Nines
 
 * Active-Passive/Master-Slave
 * Active-Active/Master-Master
+
+In sequence
+
+Overall availability decreases when two components with availability < 100% are in sequence:
+
+``Availability (Total) = Availability (Foo) * Availability (Bar)``
+
+If both Foo and Bar each had 99.9% availability, their total availability in sequence would be 99.8%.
+
+In parallel
+
+Overall availability increases when two components with availability < 100% are in parallel:
+
+``Availability (Total) = 1 - (1 - Availability (Foo)) * (1 - Availability (Bar))``
+
+If both Foo and Bar each had 99.9% availability, their total availability in parallel would be 99.9999%.
+
 
 
 ### PACELC Theorem
