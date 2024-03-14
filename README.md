@@ -13,7 +13,7 @@
     * Design Principles (MVC, MVP, MVVM, SOLID, Domain Driven Design) - 2d
     * Distributed/Microservices - 3d
 * Distributed System Concepts - 2w
-    * HTTP - 1d
+    * HTTP/HTTPS/HTTPv1,2,3,QUIC,TCP,UDP - 1d
     * OSGI - 1d
     * Rest API - 1d
     * GraphQL - 1d
