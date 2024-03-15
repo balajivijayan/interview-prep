@@ -12,10 +12,13 @@ Before learning about SSL/TLS Handshake, it's important to understand the below 
 - Cipher Suites
 - Certificates
     - X.509
-- Certificate Authority
     - DV, OV and EV
+- Certificate Authority
+    
 - Certificate Chaining
-- Public and Private Key
+- Symetric Encryption
+- Asymetric Encryption
+    - Public and Private Key
 - Hashing & HMAC
 - Keystore
 - Truststore
@@ -49,6 +52,13 @@ Ex - TLS_ECDHE_ECDSSA_WITH_AES_256_GCM_SHA384.
 
 TODO
 
+### Certificate Authority
+
+Command to see the certificate chain
+```
+openssl s_client -connect google.com:443 -showcerts
+```
+
 ### Hashing and MAC
 Hashing is used to validate the data integrity. A hash function is used to convert the input message to a digest. Once the input message is hashed, the digest can't be reversed to get the input message. 
 
@@ -56,6 +66,11 @@ Hashing is used to validate the data integrity. A hash function is used to conve
 
 ![Alt text](image-2.png)
 
+### Questions
+- Why both key store and trustore are set in httpclient?
+- How to configure self signed certificate in resttemplate?
+- How certificates are validated with CA?
+- Certificate validation is online or offline?
 
 
 ## References
@@ -65,3 +80,9 @@ Hashing is used to validate the data integrity. A hash function is used to conve
 
 [TLSv1.2 Flow Diagram](https://tls12.xargs.org/#server-certificate)
 
+[IANA](https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml#tls-parameters-18)
+
+
+[How to Verify Certificate Chain](https://shagihan.medium.com/what-is-certificate-chain-and-how-to-verify-them-be429a030887)
+
+https://chrisinmtown.medium.com/server-and-client-certificates-in-https-for-apache-client-in-java-aeceae62a023
