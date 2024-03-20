@@ -35,6 +35,8 @@ The communication between the client and server is in network packets. Multiple 
 
 A cipher suite is a combination of the belwo four cryptography methods. These methods are agreed upon by the client and the server as the transport protocol.
 
+IANA decides on the supported Cipher Suites
+
 - Key Exchange Protocol - To generate necessary keys
 - Authentication - Verify Server's identity
 - Symmetric Encryption - Confidentiality for Bulk data transfer
@@ -71,7 +73,9 @@ Hashing is used to validate the data integrity. A hash function is used to conve
 - How to configure self signed certificate in resttemplate?
 - How certificates are validated with CA?
 - Certificate validation is online or offline?
+- What are some of the sample extensions?
 
+![Alt text](image-3.png)
 
 ## References
 [How https works](https://howhttps.works/episodes/)
@@ -86,3 +90,7 @@ Hashing is used to validate the data integrity. A hash function is used to conve
 [How to Verify Certificate Chain](https://shagihan.medium.com/what-is-certificate-chain-and-how-to-verify-them-be429a030887)
 
 https://chrisinmtown.medium.com/server-and-client-certificates-in-https-for-apache-client-in-java-aeceae62a023
+
+[Two way ssl Spring Boot](https://medium.com/@niral22/2-way-ssl-with-spring-boot-microservices-2c97c974e83)
+
+[Nginx Https Config](https://nginx.org/en/docs/http/configuring_https_servers.html)
